@@ -70,9 +70,6 @@ myBrLw[i] = BrLw()}
 sorted <- sort (myBrLw)
 ```
 A 95% confidence interval is `r (sorted[25])` up to `r (sorted[975])` And a Standard deviation is `r sd(sdsorted)`
-
-
-
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
 
