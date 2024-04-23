@@ -70,7 +70,6 @@ myBrLw[i] = BrLw()}
 sorted <- sort (myBrLw)
 ```
 A 95% confidence interval is `r (sorted[25])` up to `r (sorted[975])` 
-
 And a Standard deviation is `r sd(sdsorted)`
 
 
