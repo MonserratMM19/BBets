@@ -41,6 +41,22 @@ The function will be given a class_size by number of students, odds, and Number_
 ## the standard deviation and a 95% confidence interval for their earnings?
 I am going to send 1000 BrLws to find a 95% confidence internal to see how many of the same students out of a class of 35 have the same birthday. I will sort the earning from low to high to find a 95% confidence interval on the high and low ends. 
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
+```{r}
+myBrLw <- numeric(1000)
+for(i in 1:1000){
+myBrLw[i] = BrLw()}
+```
+```{r}
+sorted <- sort (myBrLw)
+```
+A 95% confidence interval is 220~340
+
+```{r}
+print(sorted[25])
+print(sorted[975])
+```
+
+
 
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
